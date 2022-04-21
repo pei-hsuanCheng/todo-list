@@ -1,3 +1,59 @@
 .btn {
   border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  margin: 8px;
+}
+
+.btn.sm {
+  padding: 4px 16px;
+  font-size: 14px;
+  margin: 4px;
+}
+
+.btn.lg {
+  padding: 12px 24px;
+  font-size: 20px;
+  margin: 16px;
+}
+
+.btn.primary {
+  color: #3189a6;
+}
+
+.btn.contained.primary {
+  color: #fff;
+  background-color: #3189a6;
+}
+
+.btn.outlined.primary {
+  border: 1px solid #3189a6;
+}
+
+.btn.secondary {
+  color: #31a66b;
+}
+
+.btn.contained.secondary {
+  color: #fff;
+  background-color: #31a66b;
+}
+
+.btn.outlined.secondary {
+  border: 1px solid #31a66b;
+}
+
+.btn.error {
+  color: #a63131;
+}
+
+.btn.contained.error {
+  color: #fff;
+  background-color: #a63131;
+}
+
+.btn.outlined.error {
+  border: 1px solid #a63131;
 }

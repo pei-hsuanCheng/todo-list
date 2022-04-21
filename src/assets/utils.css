@@ -1,3 +1,11 @@
+button {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
 .flex {
   display: flex;
 }
@@ -14,7 +22,7 @@
   flex-grow: 1;
 }
 
-.flex-shirink {
+.flex-shirink-0 {
   flex-shrink: 0;
 }
 
@@ -40,4 +48,12 @@
 
 .text-xs {
   font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.rounded-full {
+  border-radius: 50%;
 }
