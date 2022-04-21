@@ -29,8 +29,9 @@ export default function App() {
   const handleUpdate = (newValue, idx) => {
     const newTasks = [...tasks];
     if (!idx && idx !== 0) {
+      const newIdx = Math.max(newTasks.map(task => task.id));
       newValue = {
-        id: newTasks[newTasks.length-1].id + 1,
+        id: newIdx + 1,
         task: newValue,
         status: false,
       };
